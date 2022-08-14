@@ -17,12 +17,12 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          January 24th 2023
+          January 14th 2023
         </p>
 
         <div className={styles.grid}>
             <h2>Information &rarr;</h2>
-            <p>Find in-depth information about the shindig.</p>
+            <p>Text me.</p>
 
             
           
