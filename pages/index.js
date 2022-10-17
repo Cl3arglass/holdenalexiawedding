@@ -3,13 +3,21 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { Tabs, Text } from '@geist-ui/core'
 import React, { useState } from 'react';
+// import Image from 'next/image'
+import philippeWeddingday from '../public/philippe_weddingday.png'
 
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Tabs initialValue="1">
-      <Tabs.Item label="the wedding" value="1"><Text h2>January 14, 2023</Text><br /> <Text font="1.5rem" marginTop={"-25px"} marginBottom={"0px"}>At 2:45pm</Text><br /> <Text font="1rem" marginTop={"0px"} marginBottom={"0px"}>La Lomita Ranch<br /> 1985 La Lomita Way<br />  San Luis Obispo, California 93401</Text></Tabs.Item>
+      <Tabs.Item label="the wedding" value="1"><Image
+        src={philippeWeddingday}
+        alt="Picture of Philippe eating cake"
+        width={900} 
+        height={900} 
+        placeholder="blur" 
+      /><Text h2>January 14, 2023</Text><br /> <Text font="1.5rem" marginTop={"-25px"} marginBottom={"0px"}>At 2:45pm</Text><br /> <Text font="1rem" marginTop={"0px"} marginBottom={"0px"}>La Lomita Ranch<br /> 1985 La Lomita Way<br />  San Luis Obispo, California 93401</Text></Tabs.Item>
         <Tabs.Item label="holden" value="2">Holden is the groom.</Tabs.Item>
         <Tabs.Item label="alexia" value="3">Alexia is the bride.</Tabs.Item>
         <Tabs.Item label="philippe" value="4">Philippe is the dog.</Tabs.Item>
