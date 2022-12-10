@@ -44,7 +44,7 @@ export default function Home() {
             placeholder="blur" 
           /><Text h2>Travel and stay.</Text>
           <p>Accomodations:</p>
-          <a href="https://lalomitaranch.com/"> La Lomita Ranch</a><br />
+          <a href="https://hotels.cloudbeds.com/reservation/naltrC?allotment_block_code=b742818#checkin=2023-01-13&checkout=2023-01-15&allotment_block_code=b742818"> La Lomita Ranch</a><br />
           <a href="https://hotel-slo.com/">Hotel Slo</a><br />
           <a href="https://www.hotelcerro.com/">Hotel Cerro</a><br />
           <a href="https://cliffshotelandspa.com/">The Cliffs Hotel</a><br />
