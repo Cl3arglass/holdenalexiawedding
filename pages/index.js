@@ -32,6 +32,7 @@ export default function Home() {
           
           <Text h2>Ceremony + Reception</Text><br /> 
           <Text font="1.5rem" marginTop={"-25px"} marginBottom={"0px"}>January 14, 2023 <br /> 3:00pm</Text><br /> 
+          <Text font="1.20rem" marginTop={"-25px"} marginBottom={"0px"}>Stables open at 2:30pm with refreshments</Text><br /> 
           <Text font="1rem" marginTop={"0px"} marginBottom={"0px"}>La Lomita Ranch<br /> 1985 La Lomita Way<br />  San Luis Obispo, California 93401</Text>
           <Text font="1rem" marginTop={"25px"} marginBottom={"0px"}>Formal attire<br /> Adults only please </Text>
           <Text font="1rem" marginTop={"25px"} marginBottom={"0px"}>Plenty of parking available,<br /> and overnight parking allowed.<br /> Lyft and Uber friendly.</Text>
